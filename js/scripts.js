@@ -1,4 +1,4 @@
-var lsgwoerter = [
+var word = [
     ["R", "A", "D", "I", "O"],
       ["T","E","A","M","S","P","E","A","K"],
       ["W","E","B","D","E","S","I","G","N"],
@@ -11,11 +11,10 @@ var lsgwoerter = [
 
     var random = Math.floor((Math.random()*(lsgwoerter.length-1))); 
     
-    var lsgwort = lsgwoerter[random]; /
+    var word = word[random]; /
     var ratewort = new Array(lsgwort.length);
     var fehler = 0;
-    
-    
+
     for (var i = 0; i < ratewort.length; i++){
         ratewort[i] = "_ ";
     }

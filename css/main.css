@@ -9,6 +9,11 @@ input {
 	color: #999;
 }
 
+#ratefeld {
+    font-family: 'Permanent Marker', 'cursive';
+    font-size: 2.0em;
+}
+
 h1 {
 	font-family: 'Permanent Marker', 'cursive';
 }
